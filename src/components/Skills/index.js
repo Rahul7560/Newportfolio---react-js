@@ -74,7 +74,7 @@ function Menu() {
                             </a>
 
                         </Row>
-                        <Row className="rowlocation mt-3 nopadding">
+                        <Row className="rowlocation mt-3 ">
                             <p className="loationhead px-2 mr-3" style={{ backgroundColor: "red" }}> <LocationOnIcon fontSize="small" /> Location </p> <p className="locationsub">  Kollam / kerala </p>
                         </Row>
                     </div>
