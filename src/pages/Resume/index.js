@@ -6,7 +6,7 @@ function index() {
     return (
         <div className="About mt-3">
             <div className="aboutsub">
-                <h3> <WorkIcon fontSize="large" />  Resume</h3>
+                <h3> <WorkIcon />  Resume</h3>
                 <hr />
                 <Item
                     date=" Nov 13 2019"

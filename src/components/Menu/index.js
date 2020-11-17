@@ -44,7 +44,7 @@ function index() {
                             <PersonIcon
                                 className="mt-3 menucolicon"
 
-                                fontSize="medium"
+                                fontSize="default"
 
 
                             />
@@ -66,7 +66,7 @@ function index() {
                             <DescriptionIcon
                                 className="mt-3 menucolicon"
 
-                                fontSize="medium"
+                                fontSize="default"
 
 
                             />
@@ -90,7 +90,7 @@ function index() {
                             <BrushIcon
                                 className="mt-3 menucolicon "
 
-                                fontSize="medium "
+                                fontSize="default "
 
 
                             />
@@ -117,7 +117,7 @@ function index() {
                             <RecentActorsIcon
                                 className="mt-3 menucolicon"
 
-                                fontSize="medium"
+                                fontSize="default"
 
 
                             />

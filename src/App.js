@@ -21,12 +21,10 @@ function App() {
 
     <div className="App" style={{
       backgroundImage: `radial-gradient( circle 972.6px at 10% 40%,${theme.colorone} 0%, ${theme.colortwo} 90% )`
-      // background-imageradial-gradient( circle 972.6px at 10% 40%, #7579e7 0%, #0e1174 90% );  
 
     }} >
       <Themecontex.Provider value={{ theme, settheme }}>
         <Home />
-        <Bg />
       </Themecontex.Provider>
 
 
