@@ -18,6 +18,8 @@ function Menu() {
     const { theme, settheme } = useContext(Themecontex)
 
 
+
+
     return (
         <Col md={5} className=" shade nopadding">
             <div className="dataview">
@@ -134,19 +136,33 @@ function Menu() {
                             </Row>
 
 
-                            <Row className=" m-1 mt-5 mb-3">
-                                <Col className="menucols py-3 ">
-                                    <p className="nopadding "> DOWNLOAD CV</p>
+                            <Row className=" m-1 mt-5 mb-2">
+
+                                <Col className="nopadding">
+                                    <a href="https://drive.google.com/file/d/1ZsLx2alU9pdi6zmlk1xITxZLzcxgl6Bw/view?usp=sharing">
+                                        <Col className="menucols ">
+                                            <p className=" "> DOWNLOAD CV</p>
+
+                                        </Col>
 
 
+
+                                    </a>
 
 
 
                                 </Col>
-                                <Col className="menucols py-3 ">
+
+                                <Col className="nopadding">
+                                    <a href="mailto:rahulramesh7560@gmail.com">
+                                        <Col className="menucols ">
+                                            <p className="  "> CONTACT</p>
+
+                                        </Col>
 
 
-                                    <p className="nopadding " >CONTACT</p>
+
+                                    </a>
 
 
 
@@ -161,7 +177,7 @@ function Menu() {
 
 
             </div>
-        </Col>
+        </Col >
 
     )
 }
