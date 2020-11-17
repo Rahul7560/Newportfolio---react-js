@@ -8,7 +8,7 @@ function Work() {
             <div className="aboutsub">
                 <h3> Works</h3>
                 <hr />
-                <Row className="m-auto">
+                <Row className=" workrow m-auto">
                     <Item
 
                         url="https://shareblood.online/"
