@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+
+.menucol {
+    position: fixed;
+
+
+    background-color: white;
+    border-width: 0 1px 0 0;
+    transition-duration: 0.2s;
+
+
+    color: rgb(17, 17, 17);
+    text-align: center;
+    cursor: pointer;}
+
+
+  .menucol:hover{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+} 
+.menucol > p {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 !important;
+    padding-bottom: 10px !important;
+
+}
+.hovers:hover {
+    text-decoration: none;
+
+}
+
+@media only screen and (max-width :400px){
+    .menucol > p {
+        font-weight: bold;
+        font-size: small;
+    
+    }
+    .menucolicon{
+        font-size: small;
+    }
+    .menu{
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        border-bottom: solid 0.5px black;
+    }
+
+}
+
+

@@ -1,0 +1,15 @@
+.aboutsub{
+
+    margin: 30px;
+
+}
+.aboutsub > h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder !important;
+    bottom: 0; /*This is the part that glues it to the bottom*/
+}
+.aboutsub > p {
+    font-family: 'Poppins', sans-serif;
+
+
+}

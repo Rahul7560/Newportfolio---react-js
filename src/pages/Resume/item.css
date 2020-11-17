@@ -1,0 +1,42 @@
+.About{
+    overflow: scroll;
+    max-height:600px;
+
+}
+.resumeitem > div > p {
+    font-size: small;
+    border: solid 0.5px black;
+    width: 180px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.resumeitem > h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 23px;
+}
+.textdecoration:hover {
+text-decoration: none;
+
+
+}
+.resumeitem > h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+}
+.resumeitem > p {
+    margin-top: 20px;
+    font-size: medium;
+
+
+    font-family: 'Poppins', sans-serif;
+
+}
+@media only screen and (max-width : 400px){
+    .About{
+        overflow: hidden;
+        max-height:inherit;
+    
+    }
+
+}

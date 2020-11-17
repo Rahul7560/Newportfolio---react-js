@@ -1,0 +1,41 @@
+.contactsub > form {
+    display: flex;
+    flex-direction: column;
+}
+.inputcontact{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;  text-indent: 10px;
+
+
+    border: solid 2px rgb(187, 47, 47);
+    
+}
+.inputcontacts {
+    border-radius: 3px;
+    border: solid 2px rgb(187, 47, 47);
+    
+    text-indent: 10px;
+
+}
+.inputcontact::placeholder {
+    font-size: large;
+
+}
+.inputcontacts::placeholder {
+    font-size: large;
+    
+
+}
+.submitbutton{
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+
+   
+
+
+}

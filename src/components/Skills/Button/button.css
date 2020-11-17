@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.buttonskill{
+    padding: 5px 10px !important;
+    border: solid 0.5px black;
+    border-radius: 3px; 
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+}
+.buttonskill > p {
+    font-size: small;
+    margin: 0 !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.buttonskill:hover {
+    padding-left:  15px !important;
+    padding-right:  15px !important;
+
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,43 @@
+
+
+/*  item.css */
+.colwork{
+   width:280px !important;
+}
+
+.colwork > img {
+
+    max-width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    transition: ease 0.2s;
+
+}
+.colwork > img:hover {
+
+   box-shadow: 0px 0px 20px rgb(34, 33, 33);
+   cursor: pointer;
+  
+
+}
+
+.colwork > a:hover{
+    text-decoration: none;
+}
+.colwork > a > h3 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+.colwork  > h4 {
+    font-size: medium;
+    text-align: inherit;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.shade{ 
+    box-shadow: 10px 0 35px -2px rgba(143, 142, 142, 0.274);}
+.dataview{
+    width: inherit;
+    border-radius: 5px !important;
+
+}
+.nopadding{
+    margin: 0 !important;
+    padding: 0 !important;
+   
+}
+.dataview > img{
+    width: inherit;
+    margin: 0;
+    height: 200px;
+    border-top-right-radius:7px;
+
+
+
+}
+.profilephoto > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -60px;
+    box-shadow: 0px 0px 30px rgb(10, 10, 10);
+}
+.dataview > h3 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    
+
+}
+.typediv {
+    margin-top: -10px;
+}
+.type{
+    font-family: 'Nunito', sans-serif;
+    margin-top: -15px;
+    font-size: large;
+    cursor: inherit;
+    
+
+
+}
+
+.rowskills{
+    width: inherit;
+    padding: 0 !important;
+    margin: 0 !important;
+    justify-content: center;
+}
+.rowskills > a {
+    text-decoration: none;
+    color: black;
+}
+.iconcontact {
+    font-size: x-large !important;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.loationhead {
+    font-size: medium;
+    color: white;
+       font-weight: bold;
+    
+}
+.rowlocation{
+    justify-content: center;
+}
+.locationsub{
+    font-size: medium;
+       font-weight: bold;
+
+}
+.skillscontainer > h5 {
+    font-size: small;
+    font-weight: bolder;
+    text-align: initial;
+    font-family: 'Poppins', sans-serif;
+
+}
+.menucols {
+    position: relative;
+
+    background-color: white;
+    border-width: 0 1px 0 0;
+    transition-duration: 0.2s;
+    border-right : solid 2px  white;
+    background-color: rgb(187, 47, 47);
+
+
+    color: white;
+    text-align: center;
+    cursor: pointer;}
+
+
+  .menucols:hover{
+    color: white;
+    background-color: blue;
+} 
+.menucols > p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+    
+
+}
+
+
+@media only screen and (max-width : 400px){
+    .shade{ 
+        border-bottom: solid 1px rgb(95, 93, 93);
+
+    }
+        .dataview > img{
+            width: inherit;
+            margin: 0;
+            height: 200px;
+            border-top-right-radius:0px;
+            border-top-left-radius:0px;
+        
+        
+        
+        }
+}
+
